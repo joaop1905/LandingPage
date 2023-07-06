@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(./img/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+header{
+    display: flex;
+}
+main, figure{
+    display: flex;
+}
+.logomarca{
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.links{
+    width: 100%;
+    text-align: right;
+    margin-top: 40px;
+    margin-right: 70px;
+}
+.img1{
+    position: absolute;
+    width: 20vw;
+    height: 38vh;
+    margin-left: 220px;
+    margin-top: 280px;
+}
+.img2{
+    width: 15vw;
+    height: 30vh;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.sua_conta{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 8px;
+}
+a{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: montserrat;
+    color: white;
+    text-decoration: none;
+}
+
+button{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 460px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-image: linear-gradient(to left, #018ABE, #001B48);
+    color: white;
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: montserrat;
+}
+.botao{
+    font-family: montserrat;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.textos{
+    margin-right: 180px;
+    margin-left: 150px;
+    margin-top: 85px;
+    font-size: 18pt;
+    font-family: montserrat;
+    color: white;   
+}
+.img3{
+    width: 25vw;
+    height: 45vh;
+    margin-left: 50px;
+}

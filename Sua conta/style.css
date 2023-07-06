@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(./img/fundo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+header{
+    display: flex;
+}
+main, figure{
+    display: flex;
+}
+a{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: montserrat;
+    color: #02457A;
+    text-decoration: none;
+}
+button{
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 450px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-image: linear-gradient(to left, #018ABE, #001B48);
+    color: white;
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: montserrat;
+}
+footer{
+    text-align: center;
+}
+.logomarca{
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.links{
+    width: 100%;
+    text-align: right;
+    margin-top: 40px;
+    margin-right: 70px;
+}
+.sua_conta{
+    border: 2px solid #02457A;
+    padding: 5px;
+    border-radius: 8px;
+}
+.user{
+    width: 15vw;
+    height: 27vh;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.persona{
+    width: 33vw;
+    height: 55vh;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.textos{
+    margin-right: 125px;
+    margin-left: 100px;
+    margin-top: 75px;
+    font-size: 18pt;
+    font-family: montserrat;   
+}
+.botao{
+    font-family: montserrat;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+}
